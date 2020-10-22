@@ -1,8 +1,8 @@
-name: schedule_data
+name: schedule_data001
 
 on:
   schedule:
-    - cron: '53 11 * * *'
+    - cron: '57 11 * * *'
 
 
 jobs:
