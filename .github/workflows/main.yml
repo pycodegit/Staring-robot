@@ -2,7 +2,7 @@ name: schedule_data
 
 on:
   schedule:
-    - cron: '42 7 * * *'
+    - cron: '53 11 * * *'
 
 
 jobs:
