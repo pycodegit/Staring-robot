@@ -1,0 +1,16 @@
+name: schedule_data
+
+on:
+  schedule:
+    - cron: '02 12 * * *'
+
+
+jobs:
+  start:
+    runs-on: ubuntu-latest
+
+
+    steps:
+      - uses: actions/checkout@v2
+      - run: pip install dingtalkchatbot requests
+      - run: python Staring_robot.py
