@@ -1,3 +1,4 @@
+#coding=utf-8
 from dingtalkchatbot.chatbot import DingtalkChatbot
 import requests
 import time
