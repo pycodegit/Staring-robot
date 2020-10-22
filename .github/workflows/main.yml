@@ -13,6 +13,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: pip install dingtalkchatbot requests
-      - run: python Staring robot.py
+      - run: python Staring_robot.py
 
 
