@@ -1,4 +1,4 @@
-name: schedule_data001
+name: Python application
 
 on:
   schedule:
@@ -12,5 +12,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - name: Set up Python 3.8
+      - uses：actions/setup-python@v1
+        with:
+          python-version: 3.8
       - run: pip install dingtalkchatbot requests
       - run: python Staring_robot.py
